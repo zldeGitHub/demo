@@ -1,0 +1,5 @@
+# Project exclude paths
+/arithmetic/target/
+/leetcode/target/
+/mytest/target/
+/pattern/target/
