@@ -15,7 +15,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="arithmetic" target="1.7" />
+      <module name="arithmetic" target="1.8" />
       <module name="design_pattern" target="1.6" />
       <module name="leetcode" target="1.7" />
       <module name="mytest" target="8" />
