@@ -4,7 +4,7 @@
  * @author Levy Zhao
  * @since 2021-03-10 16:46
  **/
-public class A {
+public class A implements B{
 
     private String name;
 

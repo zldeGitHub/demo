@@ -238,14 +238,20 @@ public class MyTest {
 
 //        List<String> list = ImmutableList.of("1", "2");
 
-        LocalDateTime localDateTime = LocalDateTime.of(2019, Month.DECEMBER, 13, 14, 53, 23);
-        System.out.println(localDateTime);
-        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
-        String format = dateTimeFormatter.format(localDateTime);
-        System.out.println(format);
+//        LocalDateTime localDateTime = LocalDateTime.of(2019, Month.DECEMBER, 13, 14, 53, 23);
+//        System.out.println(localDateTime);
+//        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+//        String format = dateTimeFormatter.format(localDateTime);
+//        System.out.println(format);
+//
+//        LocalDateTime parse = LocalDateTime.parse(format, dateTimeFormatter);
+//        System.out.println(parse);
 
-        LocalDateTime parse = LocalDateTime.parse(format, dateTimeFormatter);
-        System.out.println(parse);
+        A a = new A("zl", "1",1);
+        for (Class<?> anInterface : a.getClass().getInterfaces()) {
+            System.out.println(anInterface);
+        }
+
 
     }
 
